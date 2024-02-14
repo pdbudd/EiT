@@ -2,7 +2,7 @@ import dearpygui.dearpygui as dpg
 import Landing_page, Place_info, Travel
 import googlemaps as gmaps
 
-gmaps.Client(key="AIzaSyB6jurtC-wioMn_ayzIERtDEAIxmMjixEM")
+gmaps.Client(key="API_KEY")
 
 dpg.create_context()
 dpg.create_viewport(title='TooGoodToNOOOOO', width=450, height=800)
