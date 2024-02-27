@@ -1,4 +1,5 @@
 import dearpygui.dearpygui as dpg
 
 def Land():
-    raise NotImplementedError
+    dpg.window(label="Information")
+    dpg.add_text("Here the app information goes")
